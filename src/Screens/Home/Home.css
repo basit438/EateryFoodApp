@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards in the container */
+    gap: 16px; /* Space between cards */
+    margin: 20px; /* Optional margin for the container */
+  }
+  
+  .card {
+    width: calc(33.33% - 16px); /* Three cards per row, subtract gap */
+    background-color: white; /* Card background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 16px; /* Padding inside the card */
+    transition: transform 0.2s; /* Smooth scaling effect on hover */
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    text-align: center; /* Center align text */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .card h2 {
+    font-size: 1.25rem; /* Card name font size */
+    font-weight: bold; /* Bold font weight */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .card h3 {
+    font-size: 1rem; /* Card position font size */
+    color: gray; /* Position text color */
+    margin: 8px 0; /* Margin above and below */
+  }
+  
+  .card p {
+    margin: 8px 0; /* Space between paragraphs */
+    color: #333; /* Text color */
+  }
+  
