@@ -8,7 +8,7 @@ import Contact from './Screens/Contact/Contact'
 import Food from './Screens/Food/Food'
 import Resturants from './Screens/Resturants/Resturants'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
-import Notfound from './components/NotFound/Notfound'
+import Notfound from './components/Notfound/Notfound'
 import Layout from './components/Layout/Layout'
 
 function App() {
