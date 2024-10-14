@@ -15,9 +15,9 @@ const Header = () => {
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-6">
           <Link to="/" className="text-lg hover:text-green-300 transition duration-300">Home</Link>
-          <Link to="/quote" className="text-lg hover:text-green-300 transition duration-300">Quote</Link>
-          <Link to="/food" className="text-lg hover:text-green-300 transition duration-300">Food</Link>
           <Link to="/resturants" className="text-lg hover:text-green-300 transition duration-300">Restaurants</Link>
+          <Link to="/food" className="text-lg hover:text-green-300 transition duration-300">Food</Link>
+          <Link to="/quote" className="text-lg hover:text-green-300 transition duration-300">Quote</Link>
           <Link to="/contact" className="text-lg hover:text-green-300 transition duration-300">Contact</Link>
         </nav>
 

@@ -4,7 +4,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Quote from './Screens/Quote/Quote'
 import Home from './Screens/Home/Home'
-import Contact from './Screens/Contact/Contact'
+import ContactUs from './Screens/ContactUs/ContactUs'
 import Food from './Screens/Food/Food'
 import Resturants from './Screens/Resturants/Resturants'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
@@ -37,7 +37,7 @@ function App() {
         },
         {
           path: "/contact",
-          element: <Contact/>
+          element: <ContactUs/>
         }
       ]
     }
